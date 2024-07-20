@@ -3,5 +3,5 @@ package interview.running;
 import java.util.Iterator;
 
 public interface ElevationCalculator {
-    public int calculateElevation(Iterator<Integer> iterator) ;
+    int calculateElevation(Iterator<Integer> iterator) ;
 }
