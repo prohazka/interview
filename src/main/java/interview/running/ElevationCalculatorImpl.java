@@ -30,7 +30,7 @@ public class ElevationCalculatorImpl implements ElevationCalculator {
         return safeElevationCounter.intValue();
     }
 
-    static class ElevationCalculationException extends Exception {
+    public static class ElevationCalculationException extends Exception {
 
         public ElevationCalculationException(String text) {
             super(text);

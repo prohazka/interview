@@ -13,7 +13,7 @@ import java.util.List;
 public class AbsentUserExtractorImpl extends AbsentUserExtractor {
 
     public List<User> getUsersAbsentForDuration(Duration duration) {
-        List result = new ArrayList<>();
+        List<User> result = new ArrayList<>();
 
         var users = userRepository.getAllUsers();
         var orders = orderRepository.getAllOrders();
