@@ -1,4 +1,4 @@
-package interview.cinema.service;
+package interview.running;
 
 import java.util.Iterator;
 

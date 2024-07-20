@@ -1,4 +1,4 @@
-package interview.cinema.service;
+package interview.running;
 
 import java.math.BigInteger;
 import java.util.Iterator;
