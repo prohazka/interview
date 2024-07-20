@@ -7,5 +7,4 @@ public class ElevationCalculatorImpl implements ElevationCalculator {
     public int calculateElevation(Iterator<Integer> iterator) {
         return 0;
     }
-
 }
