@@ -28,7 +28,9 @@ public class ElevationCalculatorImplTest {
                 Arguments.arguments(Arrays.asList(5, 5, 5), 0),
                 Arguments.arguments(Arrays.asList(-5, 5, -5, 5), 20),
                 Arguments.arguments(Arrays.asList(-5, 5, null, 5), 10),
-                Arguments.arguments(Arrays.asList(-5, 5, -10, null, null, 10, -20, null, null, null, 20), 70)
+                Arguments.arguments(Arrays.asList(-5, 5, -10, null, null, 10, -20, null, null, null, 20), 70),
+                Arguments.arguments(Arrays.asList(-5, 5, -10, null, null, 10, -20, null, null, null), 30),
+                Arguments.arguments(Arrays.asList(null, null, 10, -20, null, null, null, 20), 40)
         );
     }
 
