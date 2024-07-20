@@ -1,4 +1,4 @@
-package interview.cinema.service;
+package interview.running;
 
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Assertions;
