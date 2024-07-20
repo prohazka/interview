@@ -65,4 +65,5 @@ INSERT INTO Tickets (id, seat_id, seance_id) VALUES
 (1, 2, 1),
 (2, 4, 1),
 (3, 2, 2),
-(4, 3, 2);
+(4, 3, 2),
+(5, 3, 3);

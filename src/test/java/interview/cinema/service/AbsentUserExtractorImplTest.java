@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 import java.time.Duration;
 import java.util.List;
 
-class AnalyticsServiceImplTest {
+class AbsentUserExtractorImplTest {
     @Test
     public void shouldSelectCorrecly() {
-        List<User> usersAbsentForDuration = new AnalyticsServiceImpl().getUsersAbsentForDuration(Duration.ofDays(180));
+        List<User> usersAbsentForDuration = new AbsentUserExtractorImpl().getUsersAbsentForDuration(Duration.ofDays(180));
         Assertions.assertEquals(1, usersAbsentForDuration.size());
         Assertions.assertEquals(0, usersAbsentForDuration.get(0).getId());
     }

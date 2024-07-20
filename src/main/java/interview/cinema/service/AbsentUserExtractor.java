@@ -7,7 +7,7 @@ import interview.cinema.repository.UserRepository;
 import java.time.Duration;
 import java.util.List;
 
-public abstract class AnalyticsService {
+public abstract class AbsentUserExtractor {
     OrderRepository orderRepository = new OrderRepository();
     UserRepository userRepository = new UserRepository();
 
